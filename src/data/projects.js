@@ -15,14 +15,14 @@ const PROJECTS = [
         title: 'TalkPush test',
         description: 'Rails app that retrieves content from Google Drive API',
         link: 'https://github.com/xvega/talkpush_test',
-        image: project1
+        image: project2
     },
     {
         id: 3,
         title: 'Overtime app',
         description: 'Udemy course where I learned automated testing',
         link: 'https://github.com/xvega/overtime-app',
-        image: project1
+        image: project3
     },
 
 ];
