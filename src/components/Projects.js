@@ -18,12 +18,16 @@ const Project = props => {
 const Projects = () => (
         <div>
             <h2>Highlighted Projects</h2>
-            <div>
-                {
-                    PROJECTS.map(PROJECT => (
-                        < Project key={PROJECT.id} project={PROJECT} />
-                    ))
-                }
+            <div className={"container"}>
+                <div className={"row col-md-12"}>
+                    <div>
+                        {
+                            PROJECTS.map(PROJECT => (
+                                < Project key={PROJECT.id} project={PROJECT} />
+                            ))
+                        }
+                    </div>
+                </div>
             </div>
         </div>
 )

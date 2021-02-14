@@ -16,15 +16,15 @@ class App extends Component{
             <div>
                 <img src={profile} alt='profile' className='profile' />
                 <h1>Hello!</h1>
-                <p>My name is Xavi.</p>
+                <p>I'm Xavi.</p>
                 < Title />
                 <p>I'm always looking forward to working on meaningful projects</p>
                 { 
                     this.state.displayBio ? (
                         <div>
-                            <p>I live in San Jose, Costa Rica</p>
-                            <p>My favorite language is Ruby but I'm learning React</p>
-                            <p>Besides coding, I also love learning Russian and Polish</p>
+                            <p>I am from San Jose, Costa Rica, but I'm currently living in Poland</p>
+                            <p>My favorite language is Ruby. I'm currently learning React</p>
+                            <p>Besides coding, I also love learning Polish, playing video games and meeting people</p>
                             <button onClick={this.toggleDisplayBio}>Show less</button>
                         </div>
                     ) : (
