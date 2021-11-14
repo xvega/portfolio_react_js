@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 const TITLES = [
     'a software engineer',
-    'a music lover',
+    'a goal driven person',
     'an enthusiastic learner',
-    'an adventure seeker'
+    'a mystery..'
 ];
 
 class Title extends Component {
